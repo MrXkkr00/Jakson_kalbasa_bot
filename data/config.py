@@ -1,7 +1,7 @@
 from environs import Env
 
 
-ADMINS = ["7010118152"]
+ADMINS = [""]
 IP = "locathost"
 
 env = Env()
@@ -11,10 +11,10 @@ BOT_TOKEN = env.str("BOT_TOKEN")
 PAYMENT_TOKEN = env.list("PAYMENT_TOKEN")
 
 
-DB_USER = "botlaru1_jakson_user"
-DB_PASS = "jakson_user"
-DB_NAME = "botlaru1_jakson_db"
-DB_HOST = "localhost"
+DB_USER = ""
+DB_PASS = ""
+DB_NAME = ""
+DB_HOST = ""
 
 
 # DB_USER = "postgres"
@@ -22,5 +22,5 @@ DB_HOST = "localhost"
 # DB_NAME = "Yapona_180"
 # DB_HOST = "localhost"
 
-group_id = "-1002204397362"
+group_id = ""
 
